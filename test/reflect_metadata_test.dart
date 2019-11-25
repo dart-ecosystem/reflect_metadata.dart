@@ -26,8 +26,7 @@ void main() {
 
     test('getOwnMetadata()', () {
       expect(ReflectMetadata.getOwnMetadata("test_key1", A2), "test_value1");
-      expect(
-          ReflectMetadata.getOwnMetadata("test_key2", A2, "b"), "test_value2");
+      expect(ReflectMetadata.getOwnMetadata("test_key2", A2, "b"), "test_value2");
     });
 
     test('getMetadataKeys()', () {});
