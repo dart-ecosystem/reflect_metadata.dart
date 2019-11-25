@@ -1,15 +1,12 @@
 name: reflect_metadata
 description: >
   Simple Runtime Metadata Reflection API
-version: 1.0.0
-homepage: https://github.com/copydog/reflect_metadata.dart
-author: shallow <775150@qq.com>
+version: 1.1.0
+homepage: https://github.com/dart-ecosystem/reflect_metadata.dart
+author: Copydog <775150@qq.com>
 
 environment:
   sdk: '>=2.4.0 <3.0.0'
-
-#dependencies:
-#  reflectable: any
 
 dev_dependencies:
   benchmark_harness: ^1.0.5
